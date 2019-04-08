@@ -294,6 +294,11 @@
     tree-kill "1.2.0"
     webpack-sources "1.2.0"
 
+"@progress/kendo-theme-default@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.4.0.tgz#bcfffb35c07aa3fdc6242bbbf361f6bf7cfe4cb3"
+  integrity sha512-Sij/q1f2ppWQo3IEsElXC7Pi+YJhLcEURSNk3arNHFuKeGkluMeESX1BNAFgo1SHlC++owvZasOwntH9Wl0sew==
+
 "@schematics/angular@7.2.4":
   version "7.2.4"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.2.4.tgz#4c3c942e2fd0c32e177602a20f8fa16a88552fca"
@@ -3738,6 +3743,11 @@ jasminewd2@^2.1.0:
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
   integrity sha1-43zwsX8ZnM4jvqcbIDk5Uka07E4=
 
+jquery@<=3, jquery@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
+
 js-base64@^2.1.8:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.1.tgz#1efa39ef2c5f7980bb1784ade4a8af2de3291121"
@@ -3916,6 +3926,13 @@ karma@~3.1.1:
     source-map "^0.6.1"
     tmp "0.0.33"
     useragent "2.3.0"
+
+kendo-ui-core@^2019.1.403:
+  version "2019.1.403"
+  resolved "https://registry.yarnpkg.com/kendo-ui-core/-/kendo-ui-core-2019.1.403.tgz#3893f90ba86eb7dc10c50af5adf4b7fb89662d6b"
+  integrity sha512-lWo5RNX5FH7rtqhdd2oYBVxNXl8gN+zlkdu3JlDfw8Y5T0dgNlc6VWBrUELf9glk9r+qmrcRHYKtSaHt54GahA==
+  dependencies:
+    jquery "<=3"
 
 killable@^1.0.0:
   version "1.0.1"
